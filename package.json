@@ -1,5 +1,5 @@
 {
-  "name": "@codesandbox/sdk",
+  "name": "@superblocksteam/csb-sdk",
   "version": "0.3.0",
   "description": "The CodeSandbox SDK",
   "author": "CodeSandbox",
@@ -12,7 +12,7 @@
   "main": "./dist/esm/index.js",
   "private": false,
   "publishConfig": {
-    "@codesandbox:registry": "https://registry.npmjs.org"
+    "registry": "https://npm.pkg.github.com"
   },
   "exports": {
     ".": {

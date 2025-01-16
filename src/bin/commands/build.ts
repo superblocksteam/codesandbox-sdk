@@ -305,7 +305,8 @@ async function createSandbox(
   filesIncluded: boolean;
 }> {
   // Include the files in the sandbox if there are no binary files and there are 30 or less files
-  const files = await getFiles(filePaths, rootPath);
+  // const files = await getFiles(filePaths, rootPath);
+  const files = {};
 
   const sandbox = handleResponse(
     await sandboxCreate({
